@@ -30,6 +30,8 @@ Combinations of numbers should also be possible, such as 4,7,9 or 1-4 indicating
 contain the same material and any of those slots can be used. A cell with an X indicates that cell is
 supposed to be air
  
+Must have a function called `init(string aFilePath)` that can be called when the program starts to load the schematic file
+ 
 Must have a function called `getNextMovement(int aX, int aY, int aZ)` that can be called with
 current x,y,z coordinates of the turtle and return direction of the turtle's next movement
 
